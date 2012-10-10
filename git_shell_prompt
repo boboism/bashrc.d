@@ -1,0 +1,1 @@
+PS1="[\W\$(git branch 2> /dev/null | grep -e '\* ' | sed 's/^..\(.*\)/{\1}/')]\$ "
